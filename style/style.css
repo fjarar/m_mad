@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    background-color: black;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.content {
+    min-height: 100%;
+    background-image: url('../images/fondo_content.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    background-image: url('../images/wood_background.jpg');
+    background-size: cover;
+    box-shadow: 0px 8px 10px #888888;
+    position: sticky;
+    position: -webkit-sticky;
+    padding: 10px 0 0 12px;
+    top: -1px;
+}
+
+.image-nav {
+    transition: 0.5s ease-in-out;
+}
+
+.image-nav:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.social-media {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+h1, p {
+    color: white;
+    padding: 10px;
+}
+
+.trabajos {
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition: 0.8s ease-in-out;
+}
+
+.trabajos:hover {
+    transform: scale(1.1);
+}
+
+.footer-class {
+    background-image: url('../images/wood_background.jpg');
+    background-size: cover;
+    color: #dbdada;
+    box-shadow: 0px -8px 10px #888888;
+    padding: 20px;    
+}
+
+.footer-class p {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+p a {
+    text-decoration: none;
+    color: white; 
+}
+
+p a:hover {
+    color: white;
+    opacity: 0.8;
+}
